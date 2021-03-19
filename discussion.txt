@@ -77,8 +77,8 @@ Discussion
 
 6. What is the difference between a tree and a graph?
 
-
-
+  A tree is a graph that has a root node at the top of the tree,
+  unlike a graph, there are no loops or cycles in a tree.
 
 
 7. Using the Python implementation of Quicksort from the instructions:
