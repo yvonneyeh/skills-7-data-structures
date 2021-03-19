@@ -99,10 +99,10 @@ Discussion
   When the quicksort is first called recursively on the `lo` list, what are the
   values of:
 
-  - lst -
+  - lst - [4, 1, 5, 2, 3]
 
-  - pivot -
+  - pivot - 3
 
-  - lo -
+  - lo - [1, 2]
 
-  - hi -
+  - hi - [4, 5]
