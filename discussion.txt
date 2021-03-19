@@ -59,10 +59,9 @@ Discussion
 4. Explain why removing elements from or adding elements to an arbitrary
    location in a Python list are O(n) operations.
 
-
-
-
-
+   Removing or adding to a Python list happens in linear time because lists are ordered
+   and contiguous in memory. When an item is removed or added to a list, every other item
+   must change positions by one, up or down the list.
 
 
 5. What is the correct runtime for:
