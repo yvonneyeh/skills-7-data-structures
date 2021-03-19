@@ -14,11 +14,15 @@ Discussion
 
   Explain your answer.
 
+  Doubly linked list.
 
-
-
-
-
+  The two links help us to traverse the list in both backward and forward direction.
+  Storing the extra link requires some extra space, however, it is the most efficient
+  data structure for removing/adding items to both the beginning and the end of the list
+  because the first node of the list has its previous link pointing to NULL (similarly,
+  the last node of the list points to NULL next), this way it is very easy to add and
+  remove items from the beginning and end of the list by redirecting the reference of the
+  first and last node to the new items.
 
 
 2. Which would be the most efficient data structure for a data set with the
@@ -41,7 +45,7 @@ Discussion
 
 
 
-3. Explain why looking up, adding elements, and removing elements from a 
+3. Explain why looking up, adding elements, and removing elements from a
    dictionary or hash map are all O(1) operations.
 
 
