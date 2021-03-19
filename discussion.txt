@@ -66,13 +66,13 @@ Discussion
 
 5. What is the correct runtime for:
 
-  - Bubble Sort?
+  - Bubble Sort? O(n^2)
 
-  - Quicksort?
+  - Quicksort? O(n log n)
 
-  - Merge Sort?
+  - Merge Sort? O(n log n)
 
-  - Insertion Sort?
+  - Insertion Sort? O(n^2)
 
 
 6. What is the difference between a tree and a graph?
