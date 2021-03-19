@@ -30,7 +30,7 @@ Discussion
 
   - order is unimportant
 
-  -frequently adding and removing items
+  - frequently adding and removing items
 
   - frequently looking up items
 
@@ -38,11 +38,11 @@ Discussion
 
   Explain your answer.
 
+  Dictionary
 
-
-
-
-
+  Since dictionaries map keys to values, it is very efficient for looking up items,
+  or adding and removing them – these can be done in constant time. Since order is
+  unimportant, we can use dictionaries, because the key-value pairs do not have an order.
 
 
 3. Explain why looking up, adding elements, and removing elements from a
