@@ -48,9 +48,12 @@ Discussion
 3. Explain why looking up, adding elements, and removing elements from a
    dictionary or hash map are all O(1) operations.
 
-
-
-
+   Dictionaries and hash maps can look up and add/remove elements in constant time because
+   the data structures are built upon an associative array, as a collection of key-value pairs.
+   This means the position is unique and therefore results in a fast lookup time.
+   Python dictionaries can hash the a value and can immediately go to its key to check if
+   it exists there in constant time (indexing). Similarly, you can add and remove items
+   quickly because the items position is not dependent on the other items in the dictionary.
 
 
 4. Explain why removing elements from or adding elements to an arbitrary
