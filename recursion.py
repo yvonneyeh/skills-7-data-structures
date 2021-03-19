@@ -31,8 +31,9 @@ class Node(object):
 
         """
 
-        # TODO: Complete this method
-        # pass
+        print(self.data)
+        if self.next:
+            self.next.traverse_recursively()
 
 
 #####################################################################
