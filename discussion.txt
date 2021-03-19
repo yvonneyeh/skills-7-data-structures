@@ -86,13 +86,13 @@ Discussion
   Given the list [8, 4, 1, 6, 5, 2, 7, 3]:
   When this function is initially called, what are the values of:
 
-    - lst -
+    - lst - [8, 4, 1, 6, 5, 2, 7, 3]
 
-    - pivot -
+    - pivot - 6
 
-    - lo -
+    - lo - [4, 1, 5, 2, 3]
 
-    - hi -
+    - hi - [8, 7]
 
 
 
